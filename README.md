@@ -27,6 +27,15 @@ cd LW_RAMAN
 pip install -e .[dev]
 ```
 
+### Windows Installation Note
+If you encounter NumPy compilation errors on Windows, install NumPy first via conda:
+```bash
+conda install numpy
+# or
+micromamba install numpy -c conda-forge
+```
+Then install this package.
+
 ## Quick Start
 
 ### Calibration
